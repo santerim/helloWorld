@@ -1,4 +1,4 @@
-package helloworld;
+package Helloworld;
 
 /**
  * This program works by providing it an input string as a parameter, e.g.
@@ -6,7 +6,7 @@ package helloworld;
  * 
  * @author Santeri Martikainen
  */
-public class Main {
+public class Helloworld {
 
     /**
      * @param args the command line arguments

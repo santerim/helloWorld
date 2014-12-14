@@ -1,9 +1,9 @@
-package helloworld;
+package Helloworld;
 
 /**
  * This class handles the input string by counting the number of characters
- * and words in it, as well as reversing the string, and printing all this
- * information for the user.
+ * and words in it, as well as reversing the string, as well as printing all
+ * this information in your command prompt/terminal window.
  * 
  * @author Santeri Martikainen
  */
@@ -16,7 +16,7 @@ public class StringHandler {
     }
 
     /**
-     * Prints the information 
+     * Prints the information by calling appropriate methods to gather the data.
      */
     public void run() {
         System.out.println("Length: " + countLengthOfString(input));
@@ -33,7 +33,7 @@ public class StringHandler {
     
     /**
      * This method counts the number of words and ignores any extra whitespace
-     * characters between them (that is, if there is more than one).
+     * characters between them (that is, if there is more than one between words).
      */
     private int countNumberOfWords(String input) {
         if (input.isEmpty()) {
